@@ -1,0 +1,71 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200vh;
+  background-color: #d5e7eb;
+}
+
+.App {
+  width: 90%;
+  max-width: 500px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #f76666;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: rgb(85, 69, 69);
+  border: none;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
+
+.ride-listings {
+  margin-top: 20px;
+}
+
+.ride-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.ride-card h3 {
+  margin: 0;
+}
+
+.ride-card button {
+  margin-top: 10px;
+}
+
+.booking-form, .booking-confirmation {
+  margin-top: 20px;
+}
+
+.booking-confirmation p {
+  font-weight: bold;
+}
